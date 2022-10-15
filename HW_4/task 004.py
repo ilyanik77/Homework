@@ -22,9 +22,10 @@ def Polinome (k, file_name):
             res += f"{lst[-i]}x + "
         else:
             res += f"{lst[-i]}x^{k} + "
-
+            k -= 1
     print(res)
 # записываем в файл
     with open(file_name, "w", encoding = "utf_8") as f:
         f.write(res)
-Polinome(4, "file.txt")
+Polinome(3, "file.txt")
+
