@@ -30,6 +30,4 @@ def Polinome (k, file_name):
 Polinome(3, "file_1.txt")
 Polinome(2, "file_2.txt")
 
-with open("file_1.txt") as f1, open("file_2.txt") as f2:
-    
-    # Дальше решения у меня нет(списывать у других не стал).
+#with open("file_1.txt") as f1, open("file_2.txt") as f2:
