@@ -63,7 +63,7 @@ while game_over == False:
 
          
 PrintField()
-print(win)
+print(f"{win}-ки победили!!!")
     
  
 
