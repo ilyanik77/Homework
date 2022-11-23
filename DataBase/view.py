@@ -27,5 +27,4 @@ def get_tel():
 
 def apdate_info():
     lastname = input('Введите фамилию: ')
-
     return lastname
