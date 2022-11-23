@@ -2,7 +2,7 @@ import sqlite3
 
 from aiogram import Bot, Dispatcher, executor, types
 
-TOKEN = '5506297546:AAGidLGr4eYLatT8qgMjelq-VaJrfUKw5cY'
+TOKEN = ''
 
 bot = Bot(token = TOKEN)
 dp = Dispatcher(bot)

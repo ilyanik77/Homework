@@ -1,7 +1,7 @@
 
 import telebot
 
-bot = telebot.TeleBot('5506297546:AAGidLGr4eYLatT8qgMjelq-VaJrfUKw5cY')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(content_types=['text', 'document', 'audio']) #получает
 def get_text_messages(message): #обрабатывает
